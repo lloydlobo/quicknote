@@ -2,12 +2,11 @@
 id: 3bfxdktw3xb16gdyxiqw2vk
 title: Root
 desc: ''
-updated: 1655789752974
+updated: 1655790863404
 created: 1655788389561
 ---
-# Welcome to Dendron
 
-This is the root of your dendron vault. If you decide to publish your entire vault, this will be your landing page. You are free to customize any part of this page except the frontmatter on top.
+# Root
 
 ## Lookup
 
@@ -19,7 +18,33 @@ This section contains useful links to related resources.
 - [Github](https://link.dendron.so/6b24)
 - [Developer Docs](https://docs.dendron.so/)
 
+## Table of Contents
+<!-- Amoeba Structure Flat Hiearchy -->
+- [Root](#root)
+  - [Lookup](#lookup)
+  - [Table of Contents](#table-of-contents)
+  - [Concepts](#concepts)
+    - [NLP](#nlp)
+      - [Natural Language Processing](#natural-language-processing)
+        - [Rust](#rust)
+          - [Crates](#crates)
+        - [Node](#node)
+          - [NPM](#npm)
 
 ## Concepts
 
+### NLP
 
+#### Natural Language Processing
+
+##### Rust
+
+###### Crates
+
+- [tokenizers](https://crates.io/crates/tokenizers)
+
+##### Node
+
+###### NPM
+
+- [compromise](https://www.npmjs.com/package/compromise)
