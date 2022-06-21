@@ -2,7 +2,7 @@
 id: 3bfxdktw3xb16gdyxiqw2vk
 title: Root
 desc: ''
-updated: 1655788541868
+updated: 1655789752974
 created: 1655788389561
 ---
 # Welcome to Dendron
@@ -21,4 +21,5 @@ This section contains useful links to related resources.
 
 
 ## Concepts
+
 
