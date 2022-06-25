@@ -2,7 +2,7 @@
 id: 3bfxdktw3xb16gdyxiqw2vk
 title: Root
 desc: ''
-updated: 1656142321341
+updated: 1656159210660
 created: 1655788389561
 ---
 ## Root
@@ -37,6 +37,8 @@ This section contains useful links to related resources.
         - [Crates](#crates)
       - [Node](#node)
         - [NPM](#npm)
+- [REGEX](#regex)
+  - [Resources](#resources)
 
 ## Journal
 
@@ -91,18 +93,25 @@ This section contains useful links to related resources.
 
 - [compromise](https://www.npmjs.com/package/compromise)
 
-- FFI
-  <https://stackoverflow.com/a/66479059> - Why does npm install ffi return error. Using node version 12
+- FFI (Foreign Function File)
+  - <https://stackoverflow.com/a/66479059>
+    - Why does npm install ffi return error. Using node version 12
+  - For Windows users!
+    - If your didn't install node-gyp then visit this link <https://github.com/nodejs/node-gyp#on-windows>
+    - Downgrading Node version worked for me.
+      - In order to downgrade Node version use NVM For windows
+    - On Windows
+      - Install the current version of Python from the Microsoft Store package.
+  - Install tools and configuration manually:
+    - Install Visual C++ Build Environment: Visual Studio Build Tools
+    - (using "Visual C++ build tools" workload) or Visual Studio Community
+    - (using the "Desktop development with C++" workload)
+    - Launch cmd, npm config set msvs_version 2017
 
-  For Windows users!
+## REGEX
 
-  If your didn't install node-gyp then visit this link <https://github.com/nodejs/node-gyp#on-windows>
+### Resources
 
-  Downgrading Node version worked for me. In order to downgrade Node version use NVM For windows
-  On Windows
-  Install the current version of Python from the Microsoft Store package.
-
-  Install tools and configuration manually:
-
-  Install Visual C++ Build Environment: Visual Studio Build Tools (using "Visual C++ build tools" workload) or Visual Studio Community (using the "Desktop development with C++" workload)
-  Launch cmd, npm config set msvs_version 2017
+- RegexOne
+  - <https://regexone.com/>
+  - Learn Regular Expressions with simple, interactive exercises.
