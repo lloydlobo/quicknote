@@ -2,7 +2,7 @@
 id: 3bfxdktw3xb16gdyxiqw2vk
 title: Root
 desc: ''
-updated: 1656138268710
+updated: 1656142321341
 created: 1655788389561
 ---
 ## Root
@@ -26,6 +26,8 @@ This section contains useful links to related resources.
 - [Table of Contents](#table-of-contents)
 - [Journal](#journal)
 - [Git](#git)
+  - [Branches](#branches)
+    - [Renaming branches](#renaming-branches)
   - [Troubleshooting](#troubleshooting)
     - [Reference errors](#reference-errors)
 - [Concepts](#concepts)
@@ -42,6 +44,14 @@ This section contains useful links to related resources.
   - Run rust functions in JavaScript with node.js by Chris Hay
 
 ## Git
+
+### Branches
+
+#### Renaming branches
+
+- Renaming the Local master Branch to main
+  - The first step is to rename the "master" branch in your local Git repositories:
+  `$ git branch -m master main`
 
 ### Troubleshooting
 
