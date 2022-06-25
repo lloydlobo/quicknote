@@ -2,7 +2,7 @@
 id: 3bfxdktw3xb16gdyxiqw2vk
 title: Root
 desc: ''
-updated: 1655968262685
+updated: 1656138268710
 created: 1655788389561
 ---
 ## Root
@@ -25,6 +25,9 @@ This section contains useful links to related resources.
 - [Lookup](#lookup)
 - [Table of Contents](#table-of-contents)
 - [Journal](#journal)
+- [Git](#git)
+  - [Troubleshooting](#troubleshooting)
+    - [Reference errors](#reference-errors)
 - [Concepts](#concepts)
   - [NLP](#nlp)
     - [Natural Language Processing](#natural-language-processing)
@@ -37,6 +40,28 @@ This section contains useful links to related resources.
 
 - [[root.journal.2022.06.23]]
   - Run rust functions in JavaScript with node.js by Chris Hay
+
+## Git
+
+### Troubleshooting
+
+#### Reference errors
+
+-
+- git pull fails "unable to resolve reference" "unable to update local ref"
+
+  ```shell
+  error: update_ref failed for ref 'refs/remotes/origin/main'
+  : cannot lock ref 'refs/remotes/origin/main'
+  : unable to resolve reference 'refs/remotes/origin/main': reference broken
+  ```
+
+  - <https://stackoverflow.com/a/15458951>
+
+  ```shell
+  rm .git/refs/remotes/origin/master
+  git fetch
+  ```
 
 ## Concepts
 
