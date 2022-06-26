@@ -2,7 +2,7 @@
 id: 3bfxdktw3xb16gdyxiqw2vk
 title: Root
 desc: ''
-updated: 1656159210660
+updated: 1656249120618
 created: 1655788389561
 ---
 ## Root
@@ -39,6 +39,9 @@ This section contains useful links to related resources.
         - [NPM](#npm)
 - [REGEX](#regex)
   - [Resources](#resources)
+- [Package Managers](#package-managers)
+  - [Node Modules](#node-modules)
+  - [Cargo](#cargo)
 
 ## Journal
 
@@ -115,3 +118,12 @@ This section contains useful links to related resources.
 - RegexOne
   - <https://regexone.com/>
   - Learn Regular Expressions with simple, interactive exercises.
+
+## Package Managers
+
+### Node Modules
+
+- `npx npkill`
+  - Delete Node Modules files on system (picker)
+
+### Cargo
