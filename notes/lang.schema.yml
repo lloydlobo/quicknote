@@ -1,0 +1,77 @@
+version: 1
+imports: []
+schemas:
+  - id: lang
+    title: lang
+    parent: root
+    children:
+      - pattern: "*"
+        children:
+          - pattern: data
+            children:
+              - pattern: array
+              - pattern: boolean
+              - pattern: csv
+              - pattern: dict
+                children:
+                  - pattern: defaultdict
+              - pattern: integer
+              - pattern: iterator
+              - pattern: json
+              - pattern: set
+              - pattern: string
+                children:
+                  - pattern: regex
+              - pattern: validation
+          - pattern: dev
+            children:
+              - pattern: lib
+                children:
+                  - pattern: binary
+                  - pattern: dynamic
+                  - pattern: import
+                  - pattern: publish
+              - pattern: migration
+              - pattern: mode
+              - pattern: runtime
+          - pattern: files
+            children:
+              - pattern: io
+              - pattern: path
+          - pattern: flow
+            children:
+              - pattern: if
+              - pattern: while
+          - pattern: functional
+          - pattern: lib
+          - pattern: oop
+            children:
+              - pattern: inheritance
+              - pattern: scope
+          - pattern: operator
+            children:
+              - pattern: comment
+              - pattern: compare
+              - pattern: create
+              - pattern: destructure
+              - pattern: equal
+              - pattern: format
+              - pattern: inspect
+              - pattern: iterate
+              - pattern: scope
+          - pattern: topic
+            children:
+              - pattern: network
+              - pattern: system
+                children:
+                  - pattern: cli
+                  - pattern: shell
+                  - pattern: uuid
+              - pattern: time
+          - pattern: types
+            children:
+              - pattern: generics
+              - pattern: interface
+              - pattern: intersection
+              - pattern: modifiers
+              - pattern: union

@@ -2,7 +2,7 @@
 id: 3bfxdktw3xb16gdyxiqw2vk
 title: Root
 desc: ''
-updated: 1656304754822
+updated: 1656307788948
 created: 1655788389561
 ---
 ## Root
@@ -15,6 +15,7 @@ created: 1655788389561
 
 This section contains useful links to related resources.
 
+- Official Schemas <https://github.com/dendronhq/templates/tree/main/templates>
 - <https://www.kevinslin.com/notes/3dd58f62-fee5-4f93-b9f1-b0f0f59a9b64/>
 - [Getting Started Guide](https://link.dendron.so/6b25)
 - [Discord](https://link.dendron.so/6b23)

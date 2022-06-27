@@ -2,7 +2,7 @@
 id: 0ox15j9ewrxe095yrshv92k
 title: JavaScript
 desc: ''
-updated: 1656306502118
+updated: 1656307271553
 created: 1656304990374
 ---
 
@@ -14,6 +14,7 @@ created: 1656304990374
 [[lang.javascript.data.dict.defaultdict]]
 [[lang.javascript.data.boolean]]
 [[lang.javascript.data.array]]
+[[lang.javascript.data.integer]]
 [[lang.javascript.data.string]]
 [[lang.javascript.data.string.regex]]
 [[lang.javascript.data.csv]]
