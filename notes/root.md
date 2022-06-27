@@ -2,15 +2,20 @@
 id: 3bfxdktw3xb16gdyxiqw2vk
 title: Root
 desc: ''
-updated: 1656249120618
+updated: 1656304754822
 created: 1655788389561
 ---
 ## Root
+
+[[fe]]
+[[proto]]
+[[lang]]
 
 ## Lookup
 
 This section contains useful links to related resources.
 
+- <https://www.kevinslin.com/notes/3dd58f62-fee5-4f93-b9f1-b0f0f59a9b64/>
 - [Getting Started Guide](https://link.dendron.so/6b25)
 - [Discord](https://link.dendron.so/6b23)
 - [Home Page](https://wiki.dendron.so/)
