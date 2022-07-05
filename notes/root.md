@@ -2,7 +2,7 @@
 id: 3bfxdktw3xb16gdyxiqw2vk
 title: Root
 desc: ''
-updated: 1656307788948
+updated: 1656998565479
 created: 1655788389561
 ---
 ## Root
@@ -36,7 +36,8 @@ This section contains useful links to related resources.
     - [Renaming branches](#renaming-branches)
   - [Troubleshooting](#troubleshooting)
     - [Reference errors](#reference-errors)
-- [Concepts](#concepts)
+      - [git pull fails "unable to resolve reference" "unable to update local ref"](#git-pull-fails-unable-to-resolve-reference-unable-to-update-local-ref)
+      - [https://stackoverflow.com/questions/48980599/git-pull-please-make-sure-you-have-the-correct-access-rights-and-the-repository## Concepts](#httpsstackoverflowcomquestions48980599git-pull-please-make-sure-you-have-the-correct-access-rights-and-the-repository-concepts)
   - [NLP](#nlp)
     - [Natural Language Processing](#natural-language-processing)
       - [Rust](#rust)
@@ -69,7 +70,8 @@ This section contains useful links to related resources.
 #### Reference errors
 
 -
-- git pull fails "unable to resolve reference" "unable to update local ref"
+
+##### git pull fails "unable to resolve reference" "unable to update local ref"
 
   ```shell
   error: update_ref failed for ref 'refs/remotes/origin/main'
@@ -77,14 +79,14 @@ This section contains useful links to related resources.
   : unable to resolve reference 'refs/remotes/origin/main': reference broken
   ```
 
-  - <https://stackoverflow.com/a/15458951>
+- <https://stackoverflow.com/a/15458951>
 
   ```shell
   rm .git/refs/remotes/origin/master
   git fetch
   ```
 
-## Concepts
+##### <https://stackoverflow.com/questions/48980599/git-pull-please-make-sure-you-have-the-correct-access-rights-and-the-repository>## Concepts
 
 ### NLP
 
