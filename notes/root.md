@@ -2,7 +2,7 @@
 id: 3bfxdktw3xb16gdyxiqw2vk
 title: Root
 desc: ''
-updated: 1656998565479
+updated: 1657160762576
 created: 1655788389561
 ---
 ## Root
@@ -49,6 +49,10 @@ This section contains useful links to related resources.
 - [Package Managers](#package-managers)
   - [Node Modules](#node-modules)
   - [Cargo](#cargo)
+- [Backend](#backend)
+  - [API](#api)
+    - [Cheerio](#cheerio)
+      - [Troubleshooting](#troubleshooting-1)
 
 ## Journal
 
@@ -135,3 +139,39 @@ This section contains useful links to related resources.
   - Delete Node Modules files on system (picker)
 
 ### Cargo
+
+## Backend
+
+### API
+
+#### Cheerio
+
+##### Troubleshooting
+
+- [Cheerio `this` object in TypeScript make "TS2683: 'this' implicitly has type 'any' because it does not have a type annotation](https://stackoverflow.com/questions/55966839/cheerio-this-object-in-typescript-make-ts2683-this-implicitly-has-type-an)
+  - **Solution**: Add a type with a regular anonymous function
+    - `.each(function (this: cheerio.Element) ...`
+
+  - ```ts
+      axios
+        .get(newspaperAddress)
+        .then((response: { data: any }) => {
+          const html = response.data;
+          const $ = cheerio.load(html);
+
+          const articlesSpecific: { title: any; url: string; source: any }[] = [];
+          $('a:contains("cost")', html).each(function (this: cheerio.Element) {
+            const title = $(this).text();
+            const url = $(this).attr("href");
+
+            articlesSpecific.push({
+              title: title,
+              url: `${newspaperBase}${url}`,
+              source: newspaperId,
+            });
+          });
+
+          res.json(articlesSpecific);
+        })
+        .catch((err: any) => console.error(err));
+      ```
