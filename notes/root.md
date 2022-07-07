@@ -2,7 +2,7 @@
 id: 3bfxdktw3xb16gdyxiqw2vk
 title: Root
 desc: ''
-updated: 1657160762576
+updated: 1657160779043
 created: 1655788389561
 ---
 ## Root
@@ -52,7 +52,7 @@ This section contains useful links to related resources.
 - [Backend](#backend)
   - [API](#api)
     - [Cheerio](#cheerio)
-      - [Troubleshooting](#troubleshooting-1)
+      - [Troubleshooting Cheerio](#troubleshooting-cheerio)
 
 ## Journal
 
@@ -146,7 +146,7 @@ This section contains useful links to related resources.
 
 #### Cheerio
 
-##### Troubleshooting
+##### Troubleshooting Cheerio
 
 - [Cheerio `this` object in TypeScript make "TS2683: 'this' implicitly has type 'any' because it does not have a type annotation](https://stackoverflow.com/questions/55966839/cheerio-this-object-in-typescript-make-ts2683-this-implicitly-has-type-an)
   - **Solution**: Add a type with a regular anonymous function
