@@ -2,7 +2,7 @@
 id: 3bfxdktw3xb16gdyxiqw2vk
 title: Root
 desc: ''
-updated: 1657160779043
+updated: 1657272182112
 created: 1655788389561
 ---
 ## Root
@@ -53,6 +53,7 @@ This section contains useful links to related resources.
   - [API](#api)
     - [Cheerio](#cheerio)
       - [Troubleshooting Cheerio](#troubleshooting-cheerio)
+- [Developer Console](#developer-console)
 
 ## Journal
 
@@ -175,3 +176,13 @@ This section contains useful links to related resources.
         })
         .catch((err: any) => console.error(err));
       ```
+
+## Developer Console
+
+- google-chrome-devtools  
+  - Editable Content
+    - Open console:
+      - Ctrl+Shift+J (Windows/Linux)
+      - Cmd+Opt+J (Mac)
+      - Insert document.body.contentEditable = true or document.designMode = 'on' and press ENTER
+    - [Source](https://riptutorial.com/google-chrome-devtools/example/28782/making-content-editable)
